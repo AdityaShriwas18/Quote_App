@@ -63,7 +63,6 @@ def main():
         elif choice == '2':
             print("*" * 70)
             list_all_quotes()
-            print("*" * 70)
         elif choice == '3':
                 quote_id = int(input("Enter quote id to delete[❌]: "))
                 delete_quote(quote_id)
